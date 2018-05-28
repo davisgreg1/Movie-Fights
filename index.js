@@ -8,7 +8,7 @@ exports.get = function(event, context, callback) {
   var result = {
     statusCode: 200,
     body: contents.toString(),
-    message: "Success!",
+    message: 'Success!',
     headers: {'content-type': 'text/html'}
   };
 
